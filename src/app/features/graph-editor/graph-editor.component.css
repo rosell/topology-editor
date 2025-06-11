@@ -1,0 +1,11 @@
+.graph-editor-container {
+  width: 100%;
+  height: 600px; /* Default height, can be made more dynamic later */
+  border: 1px solid #ccc;
+}
+
+.graph-display-area {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
