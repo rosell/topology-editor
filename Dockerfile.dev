@@ -1,0 +1,7 @@
+FROM node:lts-slim
+
+RUN npm install -g @angular/cli
+
+RUN echo "PS1='\[\033[01;32m\]topology-editor@dev\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\] \$ '" >> /root/.bashrc
+
+WORKDIR /app
