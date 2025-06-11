@@ -1,11 +1,12 @@
-.graph-editor-container {
+:host {
+  display: block;
   width: 100%;
   height: 600px; /* Default height, can be made more dynamic later */
-  border: 1px solid #ccc;
 }
 
-.graph-display-area {
+f-flow {
   width: 100%;
   height: 100%;
   display: block;
+  border: 1px solid #eee; /* Basic border for visibility */
 }
